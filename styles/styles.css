@@ -12,7 +12,8 @@ body{
   font-family: Arial, sans-serif;
   color: #000000 /*black*/;
   text-align: left;
-  background-color: #A4B0BF
+  background-color: #A4B0BF;
+  max-width: 75%
 }
 h1{
   font-size: 3em;
@@ -34,7 +35,8 @@ h2{
   background-color:#80a2c9
 }
 p{
-  font-size: 1.25em
+  font-size: 1.25em;
+  
 }
 a{
   color:#074999;
