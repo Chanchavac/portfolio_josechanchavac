@@ -9,7 +9,7 @@ Color Scheme for this Website:
 body{
   font-size: 1em;
   font-weight: normal;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   color: #000000 /*black*/;
   text-align: left;
   background-color: #A4B0BF;
@@ -36,7 +36,7 @@ h2{
 }
 p{
   font-size: 1.25em;
-  
+
 }
 a{
   color:#074999;
