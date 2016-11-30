@@ -1,6 +1,8 @@
 /* Place this at the very top of your typographystyles.css document */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
+@import url('https://fonts.googleapis.com/css?family=Allerta');
 
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
@@ -155,4 +157,20 @@ font-size: 1.6em;
   height: 500px;
   width: 800px;
   margin: 0 auto;
+}
+#top{
+  font-size: 3.75em;
+  margin-left: 28%;
+  font-family: 'Suez One' ,serif;
+}
+#middle{
+  font-size: 1.9em;
+  font-family: 'Allerta';
+  font-weight: 700;;
+}
+#bottom{
+  font-size: 1.65em;
+  margin-left: 23%;
+  font-family: 'Allerta';
+  font-weight: 400;
 }
