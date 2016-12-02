@@ -157,20 +157,41 @@ font-size: 1.6em;
   height: 500px;
   width: 800px;
   margin: 0 auto;
+  color: #725400;
 }
-#top{
+#top1{
   font-size: 3.75em;
-  margin-left: 28%;
+  margin-left: 23%;
   font-family: 'Suez One' ,serif;
 }
-#middle{
+#top2{
+  font-size: 3.75em;
+  margin-left: 23%;
+  font-family: 'Suez One' ,serif;
+}
+
+#middle1{
   font-size: 1.9em;
   font-family: 'Allerta';
-  font-weight: 700;;
+  font-weight: 700;
+  margin-left: 44%;
+}
+#middle2{
+  font-size: 1.9em;
+  font-family: 'Allerta';
+  font-weight: 700;
+  margin-left: 51%;
+}
+#middle3{
+  font-size: 1.9em;
+  font-family: 'Allerta';
+  font-weight: 700;
+  margin-left: 58%;
 }
 #bottom{
   font-size: 1.65em;
-  margin-left: 23%;
+  margin-left: 17%;
   font-family: 'Allerta';
   font-weight: 400;
+  color: #9B7200;
 }
