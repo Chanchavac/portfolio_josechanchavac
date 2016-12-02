@@ -156,28 +156,33 @@ font-size: 1.6em;
   background-position: center center;
   height: 500px;
   width: 800px;
+  border-radius: 50px;
+  border: 3px solid #E0A400;
   margin: 0 auto;
-  color: #725400;
+  color: #E0A400;
+  text-shadow: 3px 3px black;
+  box-shadow: 10px 10px 5px #888888;
 }
+
 #top1{
-  font-size: 3.75em;
-  margin-left: 23%;
+  font-size: 3.95em;
+  margin-left: 13%;
   font-family: 'Suez One' ,serif;
 }
 #top2{
-  font-size: 3.75em;
-  margin-left: 23%;
+  font-size: 3.95em;
+  margin-left: 13%;
   font-family: 'Suez One' ,serif;
 }
 
 #middle1{
-  font-size: 1.9em;
+  font-size: 2.1em;
   font-family: 'Allerta';
   font-weight: 700;
   margin-left: 44%;
 }
 #middle2{
-  font-size: 1.9em;
+  font-size: 2.1em;
   font-family: 'Allerta';
   font-weight: 700;
   margin-left: 51%;
@@ -193,5 +198,4 @@ font-size: 1.6em;
   margin-left: 17%;
   font-family: 'Allerta';
   font-weight: 400;
-  color: #9B7200;
 }
