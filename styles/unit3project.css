@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Chewy');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
 #quote1{
   background-image: url("../images/unit3project1.png");
   background-size: cover;
@@ -9,12 +13,14 @@
   width: 800px;
   border: 10px solid black;
   border-radius: 20%;
-  line-height: 700%
+  line-height: 700%;
 }
 .linequote1{
   font-size: 3.75em;
   margin-left: 17%;
-  font-family: 'Comfortaa'
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  text-shadow: 3px 3px white;
 }
 #dark{
   font-size: 6.5em;
@@ -45,7 +51,35 @@
   width: 800px;
   border: 10px solid #0B3566;
   border-radius: 20%;
+  line-height: 1000%;
 }
-#line2-1{
-  
+#line2_1{
+ font-size: 5em;
+ margin-left:7%;
+ margin-top: 5%;
+ font-family: 'Lemonada';
+ color: #1B66A0;
+ text-shadow: 5px 5px white;
+}
+#easier{
+font-size: 7.5em;
+margin-left:17%;
+font-family: 'Fontdiner Swanky';
+color: white;
+text-shadow: 4px 4px 4px black;
+font-weight: 100;
+}
+#line2_2{
+  font-size: 5em;
+  margin-left:14%;
+  font-family: 'Lemonada';
+  color: #1B66A0;
+  text-shadow: 5px 5px white;
+}
+#stronger{
+  font-size: 7.5em;
+  margin-left:6%;
+  font-family: 'Bungee Inline';
+  color: #01010C;
+  text-shadow: 6px 6px white;
 }
