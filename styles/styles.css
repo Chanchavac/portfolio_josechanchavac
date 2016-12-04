@@ -1,6 +1,6 @@
 /*
 Color Scheme for this Website:
-#A4B0BF
+#F9FCFF
 #0B3566
 #1669c9
 #80A2C9
@@ -12,7 +12,7 @@ body{
   font-family: Arial,sans-serif;
   color: #000000 /*black*/;
   text-align: left;
-  background-color: #A4B0BF;
+  background-color: #F9FCFF;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -51,4 +51,37 @@ h3{
 h4{
   font-size:1.85em;
   color:#074999;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 95%;
+    background-color:#2D5E99;
+    border: 7px solid #0B3566;
+    border-radius: 25px
+}
+
+.navli{
+    float: left;
+    width: 240px;
+    color: #E2EFFF;
+
+}
+
+.nava{
+    display: block;
+    padding: 8px;
+    color: #E2EFFF;
+    text-align: center;
+}
+.navli:hover {
+    background-color:#0B3566;
+}
+.currentpage{
+  float: left;
+  width: 240px;
+  color: #E2EFFF;
+  background-color: #0B3566;
 }

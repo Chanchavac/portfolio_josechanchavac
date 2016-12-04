@@ -1,16 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 #quote1{
-  background-image: url("../images/unit3project.png");
+  background-image: url("../images/unit3project1.png");
   background-size: cover;
   background-position: center center;
   height: 800px;
   width: 800px;
-
+  border: 10px solid black;
+  border-radius: 20%;
+  line-height: 700%
+}
+.linequote1{
+  font-size: 3.75em;
+  margin-left: 17%;
+  font-family: 'Comfortaa'
+}
+#dark{
+  font-size: 6.5em;
+  margin-left: 35%;
+  font-family: 'Chewy';
+  text-shadow: 7px 3px black;
+  letter-spacing: 6px;
+}
+#bright{
+  font-size: 4.5em;
+  margin-left: 13%;
+  font-family: 'Lobster';
+  color: #F9FCFF;
+  text-shadow: 3px 3px black;
+}
+#star{
+  font-size: 8em;
+  margin-left: 30%;
+  font-family: 'Lobster';
+  color: #F9FCFF;
+  text-shadow: 5px 5px black;
 }
 #quote2{
-  background-image: url("../images/unit3project.png");
+  background-image: url("../images/unit3project2.png");
   background-size: cover;
   background-position: center center;
   height: 800px;
   width: 800px;
-
+  border: 10px solid #0B3566;
+  border-radius: 20%;
+}
+#line2-1{
+  
 }
