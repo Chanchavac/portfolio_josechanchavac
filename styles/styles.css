@@ -43,7 +43,8 @@ p{
 }
 a{
   color:#074999;
-  font-size: 1.25em
+  font-size: 1.25em;
+  text-decoration: none;
 }
 h3{
   font-size:2em
@@ -57,19 +58,27 @@ h4{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 95%;
+    width: 100%;
     background-color:#2D5E99;
     border: 7px solid #0B3566;
     border-radius: 25px
 }
-
+.nav2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 91%;
+    background-color:#2D5E99;
+    border: 7px solid #0B3566;
+    border-radius: 25px
+}
 .navli{
     float: left;
-    width: 240px;
+    width: 13.35em;
+    height: 3.5em;
     color: #E2EFFF;
-
 }
-
 .nava{
     display: block;
     padding: 8px;
@@ -81,7 +90,8 @@ h4{
 }
 .currentpage{
   float: left;
-  width: 240px;
+  width: 13.35em;
+  height: 3.5em;
   color: #E2EFFF;
   background-color: #0B3566;
 }
