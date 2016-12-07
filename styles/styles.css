@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Andika');
 /*
 Color Scheme for this Website:
 #F9FCFF
@@ -9,12 +10,12 @@ Color Scheme for this Website:
 body{
   font-size: 1em;
   font-weight: normal;
-  font-family: Arial,sans-serif;
+  font-family: 'Andika';
   color: #000000 /*black*/;
   text-align: left;
   background-color: #F9FCFF;
   max-width: 75%;
-  margin: 0 auto;
+  margin-left: 10%
 }
 h1{
   font-size: 3em;
@@ -22,7 +23,7 @@ h1{
   color: #0B3566 /*blue*/;
   text-align: center;
   margin-left: auto;
-  border: 3px solid #1669c9;
+  border: 5px solid #1669c9;
   border-radius:2em;
   box-shadow: 10px 10px 5px #888888;
   background-color: #80A2C9;
@@ -35,7 +36,8 @@ h2{
   border-bottom-right-radius: 2em;
   border-top-left-radius: 2em;
   text-align: center;
-  background-color:#80a2c9
+  background-color:#80a2c9;
+  line-height: 97.5%;
 }
 p{
   font-size: 1.25em;
@@ -58,25 +60,14 @@ h4{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100%;
+    width: 750px;
     background-color:#2D5E99;
     border: 7px solid #0B3566;
-    border-radius: 25px
-}
-.nav2{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 91%;
-    background-color:#2D5E99;
-    border: 7px solid #0B3566;
-    border-radius: 25px
+    border-radius: 25px;
 }
 .navli{
     float: left;
-    width: 13.35em;
-    height: 3.5em;
+    width: 250px;
     color: #E2EFFF;
 }
 .nava{
@@ -90,11 +81,40 @@ h4{
 }
 .currentpage{
   float: left;
-  width: 13.35em;
-  height: 3.5em;
+  width: 250px;
   color: #E2EFFF;
   background-color: #0B3566;
 }
 #unit3nav{
-  width: 48%;
+  width: 500px;
+}
+.line{
+  text-decoration: underline;
+}
+.unit2img{
+  height:125px;
+  width: 600px;
+}
+.menu{
+  border: 4px solid #1669c9;
+  position: fixed;
+}
+#indexmenu{
+  margin-left: 60%;
+  height: 318px;
+  width: 200px;
+}
+#unit2menu{
+  margin-left: 60%;
+  height: 130px;
+  width: 200px;
+}
+#unit3menu{
+  margin-left: 70%;
+  height: 225px;
+  width: 200px;
+}
+
+.menuli :hover{
+  color: black;
 }
