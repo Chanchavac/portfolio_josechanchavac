@@ -7,6 +7,13 @@ Color Scheme for this Website:
 #80A2C9
 #074999
 */
+#salesian{
+  float: left;
+  height: 150px;
+  width: 170px;
+  margin-left: -8%;
+  border-radius: 25%
+}
 body{
   font-size: 1em;
   font-weight: normal;
@@ -29,6 +36,7 @@ h1{
   background-color: #80A2C9;
   width: 775px;
 }
+
 h2{
   width: 300px;
   height: 60px;
@@ -58,7 +66,7 @@ h4{
 }
 .nav{
     list-style-type: none;
-    margin: 0;
+    margin-left: -5%;
     padding: 0;
     overflow: hidden;
     width: 750px;
@@ -103,12 +111,12 @@ h4{
   position: fixed;
 }
 #indexmenu{
-  margin-left: 60%;
-  height: 318px;
+  margin-left: 65%;
+  height: 325px;
   width: 200px;
 }
 #unit2menu{
-  margin-left: 60%;
+  margin-left: 62%;
   height: 130px;
   width: 200px;
 }
@@ -118,7 +126,7 @@ h4{
   width: 200px;
 }
 #u3projectmenu{
-  margin-left: 65%;
+  margin-left: 70%;
   height: 100px;
   width: 105px;
 }
