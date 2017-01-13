@@ -30,9 +30,12 @@ h1{
   color: #0B3566 /*blue*/;
   text-align: center;
   margin-left: 12%;
-  border: 5px solid #1669c9;
-  border-radius:2em;
-  box-shadow: 15px 15px 5px #4C4C4C;
+  border: 10px solid #1669c9;
+  -webkit-border-image: url("../images/border.png") 30 round;
+  -o-border-image: url("../images/border.png") 30 round;
+  /*border-radius:2em;*/
+  border-image: url("../images/border.png") 30 round;
+  /*box-shadow: 15px 15px 5px #4C4C4C;*/
   background-color: #80A2C9;
   width: 775px;
 }
