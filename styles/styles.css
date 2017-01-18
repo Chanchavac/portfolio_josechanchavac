@@ -31,11 +31,11 @@ h1{
   text-align: center;
   margin-left: 12%;
   border: 10px solid #1669c9;
-  -webkit-border-image: url("../images/border.png") 30 round;
-  -o-border-image: url("../images/border.png") 30 round;
-  /*border-radius:2em;*/
-  border-image: url("../images/border.png") 30 round;
-  /*box-shadow: 15px 15px 5px #4C4C4C;*/
+  /*-webkit-border-image: url("../images/border.png") 30 round;
+  -o-border-image: url("../images/border.png") 30 round;*/
+  border-radius:2em;
+  /*border-image: url("../images/border.png") 30 round;*/
+  box-shadow: 15px 15px 5px #4C4C4C;
   background-color: #80A2C9;
   width: 775px;
 }
