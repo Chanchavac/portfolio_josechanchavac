@@ -1,9 +1,26 @@
-header{
-  
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    height: 1500px;
+    font-family: 'Andika';
+    width: 100%;
+    background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
+    background: radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
+    position: relative;
 }
 #topbanner{
 
 }
 #toptxt{
 
+}
+#link{
+  width: 100%;
+  height: 50px;
+  background: ;
+  position: absolute;
+  bottom: 0;
+  position: fixed;
 }
