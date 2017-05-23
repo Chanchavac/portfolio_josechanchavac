@@ -118,22 +118,22 @@ h4{
 }
 #indexmenu{
   margin-left: 65%;
-  height: 325px;
+  height: auto;
   width: 200px;
 }
 #unit2menu{
   margin-left: 62%;
-  height: 130px;
+  height: auto;
   width: 200px;
 }
 #unit3menu{
   margin-left: 70%;
-  height: 225px;
+  height: auto;
   width: 200px;
 }
 #u3projectmenu{
   margin-left: 70%;
-  height: 100px;
+  height: auto;
   width: 105px;
 }
 .menuli :hover{
