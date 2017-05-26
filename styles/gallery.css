@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#gallery{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  padding-bottom: 20px;
+  background: grey;
+}
+.first{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.regimg{
+  width: 30%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+}

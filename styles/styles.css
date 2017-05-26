@@ -76,18 +76,20 @@ h4{
     background-color:#2D5E99;
     border: 7px solid #0B3566;
     border-radius: 25px;
+    height: 200px;
 }
 .navli{
     float: left;
-    width: 250px;
+    width: 150px;
     color: #E2EFFF;
     border-radius: 10px;
+    height: 100px;
 }
 .nava{
     display: block;
-    padding: 8px;
     color: #E2EFFF;
     text-align: center;
+    height: 100px;
 }
 .navli:hover {
     background-color:#0B3566;
@@ -95,7 +97,7 @@ h4{
 }
 .currentpage{
   float: left;
-  width: 250px;
+  width: 150px;
   color: #E2EFFF;
   background-color: #0B3566;
   border-radius: 10px;
