@@ -1,20 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 *{
   margin: 0;
   padding: 0;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+  background: -webkit-radial-gradient(#00A4E5, #0092CC, #007FB2, #006D99, #005B7F);
+  background: radial-gradient(#00A4E5, #0092CC, #007FB2, #006D99, #005B7F);
+  padding-bottom: 200px;
+}
+#logo{
+  height: 125px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#schoolname{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+#title{
+  display: block;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: grey;
+  margin-top: 25px;
 }
 #gallery{
   width: 90%;
   height: auto;
   margin-left: 5%;
-  padding-bottom: 20px;
   background: grey;
-}
-.first{
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  padding-top: 20px;
+  margin-top: 60px;
 }
 .regimg{
-  width: 30%;
-  margin-right: 2.5%;
-  margin-top: 20px;
+  width: 29%;
+  border: 2px solid white;
+  margin-right: 2.125%;
+  margin-bottom: 20px;
+}
+.first{
+  margin-left: 2.5%
+}
+#paragraph{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+#parheader{
+  display: block;
+  background: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+#linkdiv{
+  width: 100%;
+  height: 100px;
+  background: #AEA983;
+  position: fixed;
+  bottom: 0;
+}
+#link{
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  display: block;
+  width: 18%;
+  height: 80px;
+  margin-left: 60%;
+  margin-top: 10px;
+  background-image: url("../images/twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#link p{
+  margin-left: 50%;
+  font-size: 1.75em;
+  color: black;
+}
+#link:hover{
+  background-image: url("../images/twitter2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
