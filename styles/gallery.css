@@ -20,6 +20,40 @@ body{
   letter-spacing: 2px;
   font-size: 3em;
 }
+nav{
+  display: block;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 70px;
+}
+nav ul{
+  display: block;
+  width: 100%;
+  height: 80px;
+  list-style-type: none;
+}
+nav ul li{
+  display: block;
+  width: 20%;
+  height: 40px;
+  margin-top: 30px;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+nav ul li a{
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+nav ul li a:hover{
+  color: white;
+  text-shadow: 1px 1px black;
+}
 #title{
   display: block;
   font-size: 2em;
@@ -50,6 +84,7 @@ body{
   width: 90%;
   margin-left: 5%;
   margin-top: 60px;
+  background: rgba(255, 255, 255, 0.5)
 }
 #parheader{
   display: block;
@@ -57,6 +92,10 @@ body{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 40px;
+}
+#paragraph p{
+  margin: 30px;
+  padding-bottom: 30px;
 }
 #linkdiv{
   width: 100%;
