@@ -84,7 +84,8 @@ nav ul li a:hover{
   width: 90%;
   margin-left: 5%;
   margin-top: 60px;
-  background: rgba(255, 255, 255, 0.5)
+  background: rgba(255, 255, 255, 0.5);
+  padding-bottom: 25px;
 }
 #parheader{
   display: block;
@@ -95,7 +96,7 @@ nav ul li a:hover{
 }
 #paragraph p{
   margin: 30px;
-  padding-bottom: 30px;
+  font-size: 1.25em;
 }
 #linkdiv{
   width: 100%;
